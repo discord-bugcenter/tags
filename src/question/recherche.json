@@ -1,0 +1,18 @@
+{
+  "name": "recherche",
+  "description": "Ouvrir internet, c'est vraiment si compliquer ?",
+  "response": {
+    "embed": {
+      "title": "Soyez autonome dans vos recherches !",
+      "description": [
+        "Internet est la plus grande bibliothèque du monde.",
+        "Je suis sûr et certain que vous trouverez quelques informations sur ce que vous cherchez à faire.",
+        "Prenez donc le réflexe de d'abord faire une petite recherche sur internet avant de poser une question !",
+        "Il existe des tas de sites qui réponde aux questions des personnes, par exemple le réseau Stack Exchange (Stack Overflow, Ask Ubuntu, etc), Reddit et ses différents sous-reddit ou même tout simplement Wikipedia.",
+        "Vous n'avez même pas besoin de recherche sur ces sites directement mais vous pouvez tout à fait utiliser votre moteur de recherche préféré* qui vous donnerez des liens (ou pas) directement vers ces sites.",
+        "",
+        "*petite info : de manière générale, pour les questions qui concernent l'informatique, Google reste le moteur de recherche avec les meilleurs résultats."
+      ]
+    }
+  }
+}
