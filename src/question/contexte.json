@@ -1,0 +1,15 @@
+{
+  "name": "contexte",
+  "description": "Besoin de contexte",
+  "response": {
+    "embed": {
+      "title": "Vous pouvez m'aider ? Est-ce que quelqu'un sait comment faire ?",
+      "description": [
+        "Notre serveur est tout à fait ouvert aux demandes d'aide, nous sommes un serveur communautaire et nous trouvons ça normal de s'entraider.",
+        "Malheuresement, nous ne sommes toujours pas devin, nous ne pouvons pas deviner ce que vous cherchez à faire, ni sur quel environnement vous voulez le faire.",
+        "Il est donc impossible pour nous de vous aidez si vous ne donnez pas un minimum de contexte à votre problème.",
+        "Préciser par exemple ce que vous cherchez à résoudre, sur quel système d'exploitation vous êtes, ou tout autre informations que vous jugez utile et même essentiel de nous donner."
+      ]
+    }
+  }
+}
