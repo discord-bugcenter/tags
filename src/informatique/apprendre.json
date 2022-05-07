@@ -70,6 +70,29 @@
                 }
               ]
             }
+          },
+          {
+            "choice_name": "python",
+            "embed": {
+              "title": "Où apprendre la programmation en Python",
+              "description": [
+                "Python est un langage de programmation interprété",
+                "Il est souvent nommé en tant que premier langage à apprendre du fait de sa simplicité, au niveau de la gestion de la mémoire et de sa syntaxe",
+                "Il est apprécié pour écrire des scripts d'automatisation de tâches par exemple, pour les calculs scientifique et dans le domaine de l'intelligence artificielle (IA).\n",
+                "__Wikipédia__: [Python](https://fr.wikipedia.org/wiki/Python_(langage))"
+              ],
+              "fields": [
+                {
+                  "name": "**Le langage Python :**",
+                  "value": [
+                    "[Site officiel](https://www.python.org/)\n",
+                    "[Tutoriel officiel](https://docs.python.org/fr/3/tutorial/)",
+                    "[Zeste de Savoir](https://zestedesavoir.com/tutoriels/2514/un-zeste-de-python/) : cours sur Python",
+                    "[OpenClassrooms](https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python) : cours sur Python"
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
