@@ -38,6 +38,38 @@
                 }
               ]
             }
+          },
+          {
+            "choice_name": "html/css",
+            "embed": {
+              "title": "Où apprendre la HTML et CSS",
+              "description": [
+                "HTML est un langage de balisage conçu pour créer des pages web.",
+                "Complémenté de CSS un langage de style permettant de décrire les pages web.",
+                "Ils forment tout deux la base solide sur laquel repose tout internet.\n",
+                "__Wikipédia__: [HTML](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language), [CSS](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade)"
+              ],
+              "fields": [
+                {
+                  "name": "**HTML :**",
+                  "value": [
+                    "[MDN](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics) (en partie français) : MDN est un site créé par Mozilla qui référence des ressources pour les développeurs web, ici le cas de HTML\n",
+                    "[OpenClassrooms](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3) : cours sur HTML et CSS",
+                    "[W3Schools](https://www.w3schools.com/html/default.asp) (anglais) : cours sur HTML",
+                    "[Grafikart](https://grafikart.fr/formations/html) : ⚠️ Vieux cours - formation sur HTML"
+                  ]
+                },
+                {
+                  "name": "**CSS :**",
+                  "value": [
+                    "[MDN](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics) (en partie français) : MDN est un site créé par Mozilla qui référence des ressources pour les développeurs web, ici le cas de CSS\n",
+                    "[OpenClassrooms](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3) : cours sur HTML et CSS",
+                    "[W3Schools](https://www.w3schools.com/css/default.asp) (anglais) : cours sur CSS",
+                    "[Grafikart](https://grafikart.fr/formations/css) : ⚠️ Vieux cours - formation sur CSS"
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
