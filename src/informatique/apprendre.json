@@ -93,6 +93,26 @@
                 }
               ]
             }
+          },
+          {
+            "choice_name": "sql",
+            "embed": {
+              "title": "Où apprendre SQL",
+              "description": [
+                "SQL est un langage de requête structurée pour communiquer entre une application est une base de donnée relationnelle.",
+                "Il permet ainsi la manipulation de toute sorte de donnée (recherche, ajout, modification, suppression).\n",
+                "__Wikipédia__: [SQL](https://fr.wikipedia.org/wiki/Structured_Query_Language)"
+              ],
+              "fields": [
+                {
+                  "name": "**Le langage SQL :**",
+                  "value": [
+                    "[sql.sh](https://sql.sh/) : cours sur SQL",
+                    "[Grafikat](https://grafikart.fr/formations/apprendre-sql) : formation sur SQL"
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
