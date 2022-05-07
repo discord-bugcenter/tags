@@ -113,6 +113,25 @@
                 }
               ]
             }
+          },
+          {
+            "choice_name": "java",
+            "embed": {
+              "title": "Où apprendre la programmation en Java",
+              "description": [
+                "Java est un langage de programmation orientée objet, compilé sur machine virtuelle.",
+                "Il est utilisé pour faire des applications de bureau graphique, des sites web ou encore des applications mobiles android.\n",
+                "__Wikipédia__: [Java](https://fr.wikipedia.org/wiki/Java_(langage))"
+              ],
+              "fields": [
+                {
+                  "name": "**Le langage Java :**",
+                  "value": [
+                    "[OpenClassrooms](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java) : cours sur Java"
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
