@@ -1,0 +1,12 @@
+name = "ask2ask"
+description = "Ne demander pas si on peut vous aidez."
+
+[embed]
+title = "Don't ask to ask, just ask."
+description = '''
+Si vous avez une question, posez là.
+Vous ne demander pas à la boulangère si elle peut vous vendre du pain, vous lui demandez directement un petit pain (**après lui avoir dit bonjour**).
+Alors faites de même, ne demandez pas si quelqu'un peut vous aider, posez directement votre question (**après avoir dit bonjour**).
+
+➡️ https://dontasktoask.com ⬅️
+'''
