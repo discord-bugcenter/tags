@@ -1,0 +1,25 @@
+name = "nom du tag"
+description = "description du tag"
+content = """
+Contenue du message
+sur plusieurs lignes.
+"""  # optionel
+
+
+[[embeds]] # optionnel (si content défini)
+title = "titre de l'embed"
+description = "description de l'embed" # optionnel
+image = 'url image' # optionel
+thumbnail = 'url thubnail' # optionel
+
+
+[[embeds.fields]] # optionnel
+name = "nom du champ"
+value = "valeur du champ"
+inline = true # optionnel
+
+
+[[attachments]] # optionnel
+filename = "nom du fichier attaché"
+description = "description du fichier attaché" # optionnel, rudement conseillé
+url = "url du fichier"

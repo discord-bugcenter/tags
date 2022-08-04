@@ -1,7 +1,7 @@
 name = "ask2ask"
 description = "Ne demander pas si on peut vous aidez."
 
-[embed]
+[[embeds]]
 title = "Don't ask to ask, just ask."
 description = '''
 Si vous avez une question, posez là.
