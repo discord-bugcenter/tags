@@ -1,6 +1,7 @@
 name = "ask2ask"
 description = "Ne demander pas si on peut vous aidez."
 
+
 [[embeds]]
 title = "Don't ask to ask, just ask."
 description = '''
