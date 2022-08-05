@@ -7,21 +7,15 @@ on:
     branches: [ "main" ]
 
 jobs:
-  wget:
+  validate:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v3
     - name: wget
       uses: wei/wget@v1
       with:
         args: https://github.com/tamasfe/taplo/releases/latest/download/taplo-x86_64-unknown-linux-gnu.tar.gz
-
-  validate:
-    runs-on: ubuntu-latest
-    needs: wget
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Validate toml tags
-    - run: |
+    - name: execute taplo check
+      run: |
         tar -xf taplo-x86_64-unknown-linux-gnu.tar.gz
         ./taplo check src/*/*
