@@ -1,0 +1,144 @@
+{
+    "title": "TagPayload",
+    "type": "object",
+    "properties": {
+        "name": {
+            "title": "Name",
+            "description": "The name of the tag.",
+            "type": "string"
+        },
+        "description": {
+            "title": "Description",
+            "description": "The description of the tag.",
+            "type": "string"
+        },
+        "content": {
+            "title": "Content",
+            "description": "The content of the tag.",
+            "type": "string"
+        },
+        "embeds": {
+            "title": "Embeds",
+            "description": "The embeds of the tag.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/TagEmbedPayload"
+            }
+        },
+        "attachments": {
+            "title": "Attachments",
+            "description": "The attachments of the tag.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/TagAttachmentsPayload"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "description"
+    ],
+    "additionalProperties": false,
+    "definitions": {
+        "TagEmbedFieldPayload": {
+            "title": "TagEmbedFieldPayload",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "title": "Name",
+                    "description": "The name of the field.",
+                    "type": "string"
+                },
+                "value": {
+                    "title": "Value",
+                    "description": "The value of the field.",
+                    "type": "string"
+                },
+                "inline": {
+                    "title": "Inline",
+                    "description": "Whether the field should be displayed inline.",
+                    "default": false,
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "name",
+                "value"
+            ],
+            "additionalProperties": false
+        },
+        "TagEmbedPayload": {
+            "title": "TagEmbedPayload",
+            "type": "object",
+            "properties": {
+                "title": {
+                    "title": "Title",
+                    "description": "The title of the embed.",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "Description",
+                    "description": "The description of the embed.",
+                    "type": "string"
+                },
+                "image": {
+                    "title": "Image",
+                    "description": "The image of the embed.",
+                    "minLength": 1,
+                    "maxLength": 65536,
+                    "format": "uri",
+                    "type": "string"
+                },
+                "thumbnail": {
+                    "title": "Thumbnail",
+                    "description": "The thumbnail of the embed.",
+                    "minLength": 1,
+                    "maxLength": 65536,
+                    "format": "uri",
+                    "type": "string"
+                },
+                "fields": {
+                    "title": "Fields",
+                    "description": "The fields of the embed.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/TagEmbedFieldPayload"
+                    }
+                }
+            },
+            "required": [
+                "title"
+            ],
+            "additionalProperties": false
+        },
+        "TagAttachmentsPayload": {
+            "title": "TagAttachmentsPayload",
+            "type": "object",
+            "properties": {
+                "filename": {
+                    "title": "Filename",
+                    "description": "The filename of the attachment.",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "Description",
+                    "description": "The description of the attachment.",
+                    "type": "string"
+                },
+                "url": {
+                    "title": "Url",
+                    "description": "The url of the attachment.",
+                    "minLength": 1,
+                    "maxLength": 65536,
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "filename",
+                "url"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
