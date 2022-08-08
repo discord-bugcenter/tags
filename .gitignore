@@ -1,0 +1,11 @@
+# ide
+.vscode/
+.vscode-insiders/
+.vscode-oss/
+.idea/
+.ijwb/
+.clwb/
+.aswb/
+
+# Python
+venv
