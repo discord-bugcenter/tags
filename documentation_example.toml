@@ -1,7 +1,7 @@
 name = "nom du tag"
 description = "description du tag"
 content = """
-Contenue du message
+Contenu du message
 sur plusieurs lignes.
 """  # optionel
 
