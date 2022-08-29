@@ -1,4 +1,4 @@
-name = "apache-2.0"
+name = "apache-2"
 description = "Quelques informations à propos de la license Apache, version 2.0."
 
 [[embeds]]
