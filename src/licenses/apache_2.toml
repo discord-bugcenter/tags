@@ -1,0 +1,51 @@
+name = "apache-2.0"
+description = "Quelques informations à propos de la license \"Apache License, Version 2.0\"."
+
+[[embeds]]
+title = "Apache License, Version 2.0"
+thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
+description = """
+Approuvée en 2004 par l'Apache Software Foundation, l'**Apache License, Version 2.0** est une
+license permissive dont les conditions principales permettent la distribution de travaux de toute taille
+tout en préservant la sécurité légale pour les maintainers et les utilisateurs.
+La licence est l'une des licences les plus utilisées dans le monde de l'open-source, comptant des projets
+comme [Kubernetes](https://github.com/kubernetes/kubernetes/blob/master/LICENSE), [Bazel](https://github.com/bazelbuild/bazel/blob/master/LICENSE)
+et [Swift](https://github.com/apple/swift/blob/main/LICENSE.txt).
+
+    ▶️️ Open Source Initiative, <https://opensource.org/licenses/Apache-2.0>.
+    ▶ Site officiel, <https://www.apache.org/licenses/LICENSE-2.0>.
+    ▶️ Choose A License, <https://choosealicense.com/licenses/apache-2.0/>.
+
+La fondation Apache recommande fortementt l'ajout d'une entête dans chaque fichier source pour
+éviter les erreurs d'utilisations de la licence par des personnes extérieures.
+
+Google recommende fortement l'utilisation de `Apache-2.0`. [*(source)*](https://github.com/google/new-project/blob/master/README.md)
+"""
+
+[[embeds.fields]]
+name = "Permissions"
+inline = true
+value = """
+👌 Utilisation commerciale
+👌 Distribution
+👌 Modification
+👌 Propriété intellectuelle
+👌 Utilisation et modification privée
+"""
+
+[[embeds.fields]]
+name = "Conditions"
+inline = true
+value = """
+❕ Une copie de la licence doit être distribuée avec le logiciel
+❕️ Les modifications apportées doivent être documentées
+"""
+
+[[embeds.fields]]
+name = "Limitations"
+inline = true
+value = """
+❌ Responsabilité
+❌ Utilisation de la marque
+❌ Garantie
+"""
