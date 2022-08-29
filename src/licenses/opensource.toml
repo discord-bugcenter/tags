@@ -8,54 +8,11 @@ L'[Open Source Initiative (OSI)](https://opensource.org/about) est un organisme 
 de définir et de consolider les fondations de la philosophie Open Source
 en informatique.
 
-Étant donné la rapide croissance de la popularité du mouvement, il est
-nécessaire de savoir définir le terme Open Source.
-"""
-thumbnail = "https://opensource.org/files/osi_symbol_0.png"
-
-[[embeds.fields]]
-name = "Définition de l'Open Source"
-value = """
-Le terme Open Source ne désigne pas simplement l'accès au code source, mais
-aussi aux autorisations et limitations sur la modification, redistribution et utilisation
-d'un logiciel open-source.
+Étant donné la rapide croissance de la popularité du mouvement, il est nécessaire de savoir définir l'open-source.
 
 > L'intégralité de la définition dans son format original est disponible [ici](https://opensource.org/osd).
 
-:one: **Redistribution :** une licence ne doit pas restreindre toute entité de
-vendre ou de distribuer le logiciel en tant que composant d'un logiciel plus grand (en tant que dépendance).
-Une licence ne doit pas imposer de redevances.
-
-:two: **Source :** le programme doit inclure son code source et autorisé la distribution
-de ce dernier sous forme compilé ou non. Il est aussi interdit de proposer du code
-intermédiaire (preprocessor output or translators).
-
-:three: **Modifications :** une licence doit autoriser les modifications ou les travaux
-dérivés et permettre la redistribution des modifications sous les mêmes termes
-que le logiciel original.
-
-:four: **Intégrité :** une license peut restreindre la distribution de code source modifié
-si cette dernière autorise la distribution de *"patch files"* permettant de modifier le logiciel
-lors de sa compilation. Sinon, la licence doit autoriser la distribution de modification
-tout en demandant d'utiliser un nom différent.
-
-:five: **Discriminations :** une licence ne doit pas discriminer un individu ou un groupe d'individu,
-ni restreindre une entité d'utiliser le logiciel dans un but spécifique (utilisation commerciale,
-pour la rechercher, ...).
-Une licence ne doit pas imposer l'utilisation de technologies particulières.
-
-:six: **Distribution de la Licence :** les droits spécifiés par la licence doivent s'appliquer aux entités redistribuant ou
-utilisant le logiciel.
-
-:seven: **Restrictions :** les droits exigés par une licence ne doivent pas être exclusifs
-au logiciel sous certaines conditions, les droits doivent être les mêmes, peu importe l'utilisation.
-Une licence ne doit pas placer de restrictions sur les logiciels dépendent de la source (une licence ne doit
-donc pas obliger les logiciels dépendants d'être open-source eux aussi).
-"""
-
-[[embeds.fields]]
-name = "Exemples de licences Open Source"
-value = """
+Quelques licences considérées "open-source" :
 > L'intégralité des licences triées alphabétiquement peut être trouvée [ici](https://opensource.org/licenses/alphabetical).
 
 👉 [Apache License Version 2.0](https://opensource.org/licenses/Apache-2.0) *(`/tag apache-2.0`)*
@@ -66,3 +23,64 @@ value = """
 👉 [MIT license](https://opensource.org/licenses/MIT) *(`/tag mit-license`)*
 👉 [Mozilla Public License 2.0 (MPL)](https://opensource.org/licenses/MPL-2.0)
 """
+thumbnail = "https://opensource.org/files/osi_symbol_0.png"
+
+[[embeds.fields]]
+name = "Redistribution"
+value = """
+Une licence ne doit pas restreindre toute entité de vendre ou de distribuer le logiciel en tant que composant d'un
+logiciel plus grand (en tant que dépendance). Elle ne doit pas imposer de redevances.
+"""
+inline = true
+
+[[embeds.fields]]
+name = "Code Source"
+value = """
+Le programme doit inclure son code source et autorisé la distribution de ce dernier sous forme compilé ou non.
+Il est aussi interdit de proposer du code servant de représentation intermédiaire.
+"""
+inline = true
+
+[[embeds.fields]]
+name = "Modifications et Redistributions"
+value = """
+Une licence doit autoriser les modifications ou les travaux dérivés et permettre la redistribution des modifications
+sous les mêmes termes que le logiciel original.
+"""
+inline = true
+
+[[embeds.fields]]
+name = "Intégrité du Travail de l'Auteur"
+value = """
+Une license peut restreindre la distribution de code source modifié si cette dernière autorise la distribution de
+*"patch files"* permettant de modifier le logiciel lors de sa compilation.
+Sinon, la licence doit autoriser la distribution de modification tout en demandant d'utiliser un nom différent.
+"""
+inline = true
+
+[[embeds.fields]]
+name = "Discriminations"
+value = """
+Une licence ne doit pas discriminer un individu ou un groupe d'individu, ni restreindre une entité d'utiliser le
+logiciel dans un but spécifique (utilisation commerciale, pour la recherche, ...).
+Une licence ne doit pas imposer l'utilisation de technologies particulières.
+"""
+inline = true
+
+[[embeds.fields]]
+name = "Partage et Application de la Licence"
+value = """
+Les droits spécifiés par la licence doivent s'appliquer aux entités redistribuant ou
+utilisant le logiciel.
+"""
+inline = true
+
+[[embeds.fields]]
+name = "Restrictions"
+value = """
+Les droits exigés par une licence ne doivent pas être exclusifs au logiciel sous certaines conditions,
+les droits doivent être les mêmes, peu importe l'utilisation.
+Une licence ne doit pas placer de restrictions sur les logiciels qui dépendent de la source (une licence ne doit donc
+pas obliger les logiciels dépendants d'être open-source eux aussi).
+"""
+inline = true
