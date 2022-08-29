@@ -8,7 +8,7 @@ description = """
 Simple, courte mais très efficace, la licence MIT est probablement la licence la plus utilisée. Cette dernière permet
 de protéger l'ensemble d'un projet de manière compréhensible pour tous.
 Parmi les projets sous MIT, nous pouvons retrouver [.NET](https://github.com/dotnet/runtime/blob/main/LICENSE.TXT),
-[Ruby on Rails](https://github.com/rails/rails/blob/master/MIT-LICENSE) ou encore [React](https://github.com/facebook/react).
+[Ruby on Rails](https://github.com/rails/rails/blob/master/MIT-LICENSE) ou [React](https://github.com/facebook/react).
 
     ▶️️ Open Source Initiative, <https://opensource.org/licenses/MIT>.
     ▶️ Choose A License, <https://choosealicense.com/licenses/mit/>.
