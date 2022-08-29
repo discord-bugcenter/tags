@@ -5,10 +5,10 @@ description = "Quelques informations à propos de la license \"Apache License, V
 title = "Apache License, Version 2.0"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
-Approuvée en 2004 par l'Apache Software Foundation, l'**Apache License, Version 2.0** est une
-license permissive dont les conditions principales permettent la distribution de travaux de toute taille
-tout en préservant la sécurité légale pour les maintainers et les utilisateurs.
-La licence est l'une des licences les plus utilisées dans le monde de l'open-source, comptant des projets
+Approuvée en 2004 par l'Apache Software Foundation, la licence Apache 2 est une
+license dite permissive dont les conditions principales permettent la distribution de travaux de toute taille
+tout en préservant la sécurité légale pour les mainteneurs et les utilisateurs.
+Cete licence est l'une des licences les plus utilisées dans le monde de l'open-source, comptant des projets
 comme [Kubernetes](https://github.com/kubernetes/kubernetes/blob/master/LICENSE), [Bazel](https://github.com/bazelbuild/bazel/blob/master/LICENSE)
 et [Swift](https://github.com/apple/swift/blob/main/LICENSE.txt).
 
