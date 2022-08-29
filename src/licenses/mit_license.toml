@@ -1,0 +1,42 @@
+name = "mit-license"
+description = "Quelques informations à propos de la license \"The MIT License\"."
+
+[[embeds]]
+title = "The MIT License"
+thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
+description = """
+Simple, courte mais très efficace, la licence MIT est probablement la licence la plus utilisée. Cette dernière permet
+de protéger l'ensemble d'un projet de manière compréhensible pour tous.
+Parmi les projets sous MIT, nous pouvons trouver [.NET](https://github.com/dotnet/runtime/blob/main/LICENSE.TXT),
+[Ruby on Rails](https://github.com/rails/rails/blob/master/MIT-LICENSE) et [React](https://github.com/facebook/react).
+
+    ▶️️ Open Source Initiative, <https://opensource.org/licenses/MIT>.
+    ▶️ Choose A License, <https://choosealicense.com/licenses/mit/>.
+
+La licence MIT est la licence la plus utilisée pour des modules [NPM](https://npmjs.com).
+"""
+
+[[embeds.fields]]
+name = "Permissions"
+inline = true
+value = """
+👌 Utilisation commerciale
+👌 Distribution
+👌 Modification
+👌 Utilisation et modification privée
+"""
+
+[[embeds.fields]]
+name = "Conditions"
+inline = true
+value = """
+❕ Une copie de la licence doit être distribuée avec le logiciel
+"""
+
+[[embeds.fields]]
+name = "Limitations"
+inline = true
+value = """
+❌ Responsabilité
+❌ Garantie
+"""
