@@ -1,32 +1,61 @@
-# HelpCenter - tags
+# Tags
 
-Ce dépôt recense la liste des différents "tags" que vous pouvez utiliser via la commande `/tag` de HelpCenter sur le serveur Discord [Bug Center](https://discord.gg/nbmx3XW).
+La principale source des **tags** disponibles sur [Help Center](https://github.com/discord-bugcenter/helpcenter).
 
-## Organisation du repo
+Un "tag" est une ressource décrivant un message et son contenu, permettant aux membres
+de Bug Center de rapidement pouvoir envoyer des messages d'informations.
 
-Les tags sont au format [JSON](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation), vous les retrouverez dans le dossier `src`.  
-Dans ce dossier, vous distinguerez divers dossiers : ils correspondent à la catégorie de chaque tag.
-Chaque fichier JSON correspond à un tag.
+## Contribution
 
-Exemple:
-Le fichier `src/general/contexte` correspond au tag "contexte" de la catégorie "general".
+### Structure du projet
 
-## Créer / contribuer aux tags
+Le projet est structuré selon certains critères, permettant de pouvoir facilement récupérer
+les données utilisées pour un Bot.
 
-La syntaxe des fichiers de tag est assez simple.
-Ils se composent obligatoirement d'un nom (clé : `name`), d'une description (clé : `description`) et d'une réponse (clé : `response`).  
+Chaque tag correspond à un fichier TOML situé dans un sous-dossier de `src`.
+Chaque sous-dossier de `src` correspond à une "catégorie", un moyen de classifier *indirectement*
+les tags.
 
-La réponse sera très similaire à la requête faite pour envoyer un message sur Discord (avec par exemple des embeds).
+Ainsi, `src/foo/bar.toml` correspond au fichier source d'un tag nommé "bar", de la catégorie "foo".
 
-Plus d'informations sur le format des messages : https://discord.com/developers/docs/resources/channel#create-message-jsonform-params
+### Comprendre le schéma d'un tag
 
-### Les 5 étapes pour contribuer : 
+Un tag est un fichier [TOML](https://github.com/toml-lang/toml), un langage simple
+et puissant permettant la création de données rapidement.
 
-1. Rendez-vous sur [la version "web" de vscode](`https://github.dev/discord-bugcenter/tags).
-2. Apportez directement vos modifications. Changez des textes, créez des tags...
-3. Allez dans l'onglet `Source control` (Crtl+Shift+G) sur le côté gauche. Cliquez sur la coche 🗸 en haut de l'onglet. Un pop-up apparaît pour vous demandez de créer un fork du projet : faîtes le ! Vous serez ensuite redirigés.
-4. En restant sur l'onglet `Source Control`, appuyez sur "Create Pull Request". Mettez un petit titre et une description pour présenter vos changements. Ensuite, appuyez sur "Create".
-5. Votre demande de modification a été crée, nous la traiterons dans de plus brefs délais.
+Le schéma même d'un tag est décrit par le fichier [schema.json](schema.json) à la racine du projet.
+Ce fichier JSON est la seule source de vérité du schéma d'un tag.
+
+Le fichier schéma suit le standard [JSON Schema](https://json-schema.org/), permettant
+à différents outils de proposer de l'autocomplétion et de la validation à partir du contenu du schéma.
 
 
-*TODO : préciser le fonctionnement des tags en plusieurs langues et la redondance des textes avec `"*"`*.
+Un tag est constitué de cinq propriétés :
+
+- `name`: le nom du tag,
+- `description`: une description courte du tag,
+- `content`: le contenu message du tag, envoyé comme un message classic sur Discord,
+- `embeds`: une liste d'"embeds", étant envoyés comme des Embeds sur Discord,
+- `attachments`: des fichiers/images à envoyer avec le message sur Discord.
+
+Par défaut, seul `name` et `description` sont requis.
+
+Par exemple :
+
+```toml
+name = "hello_world"
+description = "Un tag d'exemple!"
+content = """
+Contenu du message
+sur
+plusieurs lignes.
+"""
+```
+
+### Ajouter/Modifier un tag
+
+Pour ajouter ou modifier un tag, vous devez d'abord créer un fork de ce repo Git, et le clone.
+Après cela, il vous suffira de créer un fichier TOML dans un sous-dossier (une catégorie) de `src` si vous 
+souhaitez ajouter un tag, sinon il vous suffira de modifier le fichier existant correspondant.
+
+Une fois l'ajout terminé, vous pouvez commit et ouvrir une Merge Request sur ce repo.
