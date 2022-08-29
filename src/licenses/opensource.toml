@@ -31,7 +31,6 @@ value = """
 Une licence ne doit pas restreindre toute entité de vendre ou de distribuer le logiciel en tant que composant d'un
 logiciel plus grand (en tant que dépendance). Elle ne doit pas imposer de redevances.
 """
-inline = true
 
 [[embeds.fields]]
 name = "Code Source"
@@ -39,7 +38,6 @@ value = """
 Le programme doit inclure son code source et autorisé la distribution de ce dernier sous forme compilé ou non.
 Il est aussi interdit de proposer du code servant de représentation intermédiaire.
 """
-inline = true
 
 [[embeds.fields]]
 name = "Modifications et Redistributions"
@@ -47,7 +45,6 @@ value = """
 Une licence doit autoriser les modifications ou les travaux dérivés et permettre la redistribution des modifications
 sous les mêmes termes que le logiciel original.
 """
-inline = true
 
 [[embeds.fields]]
 name = "Intégrité du Travail de l'Auteur"
@@ -56,7 +53,6 @@ Une license peut restreindre la distribution de code source modifié si cette de
 *"patch files"* permettant de modifier le logiciel lors de sa compilation.
 Sinon, la licence doit autoriser la distribution de modification tout en demandant d'utiliser un nom différent.
 """
-inline = true
 
 [[embeds.fields]]
 name = "Discriminations"
@@ -65,7 +61,6 @@ Une licence ne doit pas discriminer un individu ou un groupe d'individu, ni rest
 logiciel dans un but spécifique (utilisation commerciale, pour la recherche, ...).
 Une licence ne doit pas imposer l'utilisation de technologies particulières.
 """
-inline = true
 
 [[embeds.fields]]
 name = "Partage et Application de la Licence"
@@ -73,7 +68,6 @@ value = """
 Les droits spécifiés par la licence doivent s'appliquer aux entités redistribuant ou
 utilisant le logiciel.
 """
-inline = true
 
 [[embeds.fields]]
 name = "Restrictions"
@@ -83,4 +77,3 @@ les droits doivent être les mêmes, peu importe l'utilisation.
 Une licence ne doit pas placer de restrictions sur les logiciels qui dépendent de la source (une licence ne doit donc
 pas obliger les logiciels dépendants d'être open-source eux aussi).
 """
-inline = true
