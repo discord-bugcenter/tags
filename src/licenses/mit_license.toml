@@ -1,8 +1,8 @@
 name = "mit-license"
-description = "Quelques informations à propos de la license \"Licence MIT\"."
+description = "Quelques informations à propos de la license MIT."
 
 [[embeds]]
-title = "The MIT License"
+title = "Licence MIT"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
 Simple, courte mais très efficace, la licence MIT est probablement la licence la plus utilisée. Cette dernière permet
