@@ -2,7 +2,7 @@ name = "bsd-3-clause"
 description = "Quelques informations à propos de la license BSD à 3 clauses."
 
 [[embeds]]
-title = "Licence BSD à 3 clauses"
+title = "Licence BSD à 3 clauses (BSD-3-Clause)"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
 Aussi connu sous les noms *"Nouvelle Licence BSD"* ou *"Licence BSD Modifiée"*, la license BSD
