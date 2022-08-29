@@ -1,0 +1,45 @@
+name = "gpl-3"
+description = "Quelques informations à propos de la license \"GNU General Public License version 3\"."
+
+[[embeds]]
+title = "GNU General Public License version 3"
+thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
+description = """
+Connue pour sa rigueur et ses critères de qualité, la licence GPLv3 fait es l'un des piliers du mouvement [GNU](https://www.gnu.org/)
+et du monde du [Free Software](https://www.fsf.org/).
+GPLv3 est la licence de choix pour de nombreux projets *"Libre"* (dans le sens libre), dont [Bash](https://git.savannah.gnu.org/cgit/bash.git/tree/COPYING)
+et [GIMP](https://gitlab.gnome.org/GNOME/gimp/-/blob/master/COPYING).
+
+    ▶️️ Open Source Initiative, <https://opensource.org/licenses/GPL-3.0>.
+    ▶ Site officiel, <https://www.gnu.org/licenses/gpl-3.0.html>.
+    ▶️ Choose A License, <https://choosealicense.com/licenses/gpl-3.0/>.
+"""
+
+[[embeds.fields]]
+name = "Permissions"
+inline = true
+value = """
+👌 Utilisation commerciale
+👌 Distribution
+👌 Modification
+👌 Propriété intellectuelle
+👌 Utilisation et modification privée
+"""
+
+[[embeds.fields]]
+name = "Conditions"
+inline = true
+value = """
+❕ Une copie du code source doit être distribuée avec le logiciel (compilé, etc...)
+❕ Une copie de la licence doit être distribuée avec le logiciel
+❕ Toutes modifications apportées doivent être publiée sous la même licence
+❕️ Les modifications apportées doivent être documentées
+"""
+
+[[embeds.fields]]
+name = "Limitations"
+inline = true
+value = """
+❌ Responsabilité
+❌ Garantie
+"""
