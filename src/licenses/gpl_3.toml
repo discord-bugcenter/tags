@@ -1,8 +1,8 @@
 name = "gpl-3"
-description = "Quelques informations à propos de la license \"Licence Publique Générale GNU\" dans sa version 3."
+description = "Quelques informations à propos de la license Publique Générale GNU, version 3."
 
 [[embeds]]
-title = "GNU General Public License version 3"
+title = "Licence Publique Générale GNU, version 3 (GPL-3.0-only)"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
 Connue pour sa rigueur et ses critères de qualité, la licence GPLv3 est l'un des piliers du mouvement [GNU](https://www.gnu.org/)

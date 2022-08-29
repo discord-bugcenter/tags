@@ -1,13 +1,13 @@
 name = "apache-2.0"
-description = "Quelques informations à propos de la license Apache dans sa version 2.0."
+description = "Quelques informations à propos de la license Apache, version 2.0."
 
 [[embeds]]
-title = "Apache License, Version 2.0"
+title = "Licence Apache, version 2.0 (Apache-2.0)
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
-Approuvée en 2004 par l'Apache Software Foundation, la licence Apache 2 est une
-license dite permissive dont les conditions principales permettent la distribution de travaux de toute taille
-tout en préservant la sécurité légale pour les mainteneurs et les utilisateurs.
+La licence Apache est une license dite permissive dont les conditions principales permettent
+la distribution de travaux de toute tailletout en préservant la sécurité légale pour les mainteneurs et les
+utilisateurs.
 Cete licence est l'une des licences les plus utilisées dans le monde de l'open-source, comptant des projets
 comme [Kubernetes](https://github.com/kubernetes/kubernetes/blob/master/LICENSE), [Bazel](https://github.com/bazelbuild/bazel/blob/master/LICENSE)
 et [Swift](https://github.com/apple/swift/blob/main/LICENSE.txt).

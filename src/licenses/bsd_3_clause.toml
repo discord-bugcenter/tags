@@ -1,11 +1,11 @@
 name = "bsd-3-clause"
-description = "Quelques informations à propos de la license \"The 3-Clause BSD License\"."
+description = "Quelques informations à propos de la license BSD à 3 clauses."
 
 [[embeds]]
-title = "The 3-Clause BSD License"
+title = "Licence BSD à 3 clauses"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
-Aussi connu sous les noms *"New BSD License"* ou *"Modified BSD License"*, la license BSD
+Aussi connu sous les noms *"Nouvelle Licence BSD"* ou *"Licence BSD Modifiée"*, la license BSD
 à 3 clauses est une évolution de la célèbre licence BSD enlevant la clause publicitaire.
 Cette license est populaire dans la communauté open-source et utilisée par des projets comme
 [Flutter](https://github.com/flutter/flutter/blob/master/LICENSE), [LevelDB](https://github.com/google/leveldb/blob/master/LICENSE)
