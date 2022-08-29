@@ -5,11 +5,10 @@ description = "Quelques informations à propos de la license BSD à 3 clauses."
 title = "Licence BSD à 3 clauses (BSD-3-Clause)"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
-Aussi connu sous les noms *"Nouvelle Licence BSD"* ou *"Licence BSD Modifiée"*, la license BSD
-à 3 clauses est une évolution de la célèbre licence BSD enlevant la clause publicitaire.
-Cette license est populaire dans la communauté open-source et utilisée par des projets comme
-[Flutter](https://github.com/flutter/flutter/blob/master/LICENSE), [LevelDB](https://github.com/google/leveldb/blob/master/LICENSE)
-ou [Quill](https://github.com/quilljs/quill/blob/develop/LICENSE).
+Aussi connu sous les noms *"Nouvelle Licence BSD"* ou *"Licence BSD Modifiée"*,
+la license BSD à 3 clauses est une évolution de la célèbre licence BSD enlevant la clause publicitaire.
+Cette license est populaire dans la communauté open-source et utilisée par des projets comme [Flutter](https://github.com/flutter/flutter/blob/master/LICENSE),
+[LevelDB](https://github.com/google/leveldb/blob/master/LICENSE) ou [Quill](https://github.com/quilljs/quill/blob/develop/LICENSE).
 
     ▶️️ Open Source Initiative, <https://opensource.org/licenses/BSD-3-Clause>.
     ▶️ Choose A License, <https://choosealicense.com/licenses/bsd-3-clause/>.
