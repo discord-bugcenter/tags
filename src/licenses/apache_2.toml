@@ -2,7 +2,7 @@ name = "apache-2.0"
 description = "Quelques informations à propos de la license Apache, version 2.0."
 
 [[embeds]]
-title = "Licence Apache, version 2.0 (Apache-2.0)
+title = "Licence Apache, version 2.0 (Apache-2.0)"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
 La licence Apache est une license dite permissive dont les conditions principales permettent
