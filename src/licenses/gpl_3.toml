@@ -1,12 +1,12 @@
 name = "gpl-3"
-description = "Quelques informations à propos de la license \"GNU General Public License version 3\"."
+description = "Quelques informations à propos de la license \"Licence Publique Générale GNU\" dans sa version 3."
 
 [[embeds]]
 title = "GNU General Public License version 3"
 thumbnail = "https://opensource.org/files/OSI_Approved_License.png"
 description = """
-Connue pour sa rigueur et ses critères de qualité, la licence GPLv3 fait es l'un des piliers du mouvement [GNU](https://www.gnu.org/)
-et du monde du [Free Software](https://www.fsf.org/).
+Connue pour sa rigueur et ses critères de qualité, la licence GPLv3 est l'un des piliers du mouvement [GNU](https://www.gnu.org/)
+et du monde du [Logiciel Libre](https://fr.wikipedia.org/wiki/Logiciel_libre).
 GPLv3 est la licence de choix pour de nombreux projets *"Libre"* (dans le sens libre), dont [Bash](https://git.savannah.gnu.org/cgit/bash.git/tree/COPYING)
 et [GIMP](https://gitlab.gnome.org/GNOME/gimp/-/blob/master/COPYING).
 

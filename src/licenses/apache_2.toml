@@ -1,5 +1,5 @@
 name = "apache-2.0"
-description = "Quelques informations à propos de la license \"Apache License, Version 2.0\"."
+description = "Quelques informations à propos de la license Apache dans sa version 2.0."
 
 [[embeds]]
 title = "Apache License, Version 2.0"
@@ -16,7 +16,7 @@ et [Swift](https://github.com/apple/swift/blob/main/LICENSE.txt).
     ▶ Site officiel, <https://www.apache.org/licenses/LICENSE-2.0>.
     ▶️ Choose A License, <https://choosealicense.com/licenses/apache-2.0/>.
 
-La fondation Apache recommande fortementt l'ajout d'une entête dans chaque fichier source pour
+La fondation Apache recommande fortementt l'ajout d'un en-tête dans chaque fichier source pour
 éviter les erreurs d'utilisations de la licence par des personnes extérieures.
 
 Google recommende fortement l'utilisation de `Apache-2.0`. [*(source)*](https://github.com/google/new-project/blob/master/README.md)
