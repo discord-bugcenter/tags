@@ -10,8 +10,6 @@ en informatique.
 
 Étant donné la rapide croissance de la popularité du mouvement, il est nécessaire de savoir définir l'open-source.
 
-> L'intégralité de la définition dans son format original est disponible [ici](https://opensource.org/osd).
-
 Quelques licences considérées "open-source" :
 > L'intégralité des licences triées alphabétiquement peut être trouvée [ici](https://opensource.org/licenses/alphabetical).
 
@@ -22,6 +20,9 @@ Quelques licences considérées "open-source" :
 👉 [GNU Library General Public License (LGPL)](https://opensource.org/licenses/lgpl-license)
 👉 [MIT license](https://opensource.org/licenses/MIT) *(`/tag mit-license`)*
 👉 [Mozilla Public License 2.0 (MPL)](https://opensource.org/licenses/MPL-2.0)
+
+Les paragraphes suivant décrivent brievement ce qu'est une licence "open-source".
+> L'intégralité de la définition dans son format original est disponible [ici](https://opensource.org/osd).
 """
 thumbnail = "https://opensource.org/files/osi_symbol_0.png"
 
