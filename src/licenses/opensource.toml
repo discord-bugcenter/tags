@@ -5,13 +5,11 @@ description = "Une description de l'innitiative Open Source."
 title = "Initiative Open Source"
 description = """
 L'[Open Source Initiative (OSI)](https://opensource.org/about) est un organisme ayant pour objectif
-de définir et de consolider les fondations de la philosophie Open Source
-en informatique.
+de définir et de consolider les fondations de la philosophie "Open Source" en informatique.
 
 Étant donné la rapide croissance de la popularité du mouvement, il est nécessaire de savoir définir l'open-source.
 
-Quelques licences considérées "open-source" :
-> L'intégralité des licences triées alphabétiquement peut être trouvée [ici](https://opensource.org/licenses/alphabetical).
+Quelques licences considérées open-source :
 
 👉 [Apache License Version 2.0](https://opensource.org/licenses/Apache-2.0) *(`/tag apache-2.0`)*
 👉 [BSD 3-Clause "New" license](https://opensource.org/licenses/BSD-3-Clause) *(`/tag bsd-3-clause`)*
@@ -21,7 +19,10 @@ Quelques licences considérées "open-source" :
 👉 [MIT license](https://opensource.org/licenses/MIT) *(`/tag mit-license`)*
 👉 [Mozilla Public License 2.0 (MPL)](https://opensource.org/licenses/MPL-2.0)
 
+> L'intégralité des licences est trouvable [ici](https://opensource.org/licenses/alphabetical).
+
 Les paragraphes suivant décrivent brievement ce qu'est une licence "open-source".
+
 > L'intégralité de la définition dans son format original est disponible [ici](https://opensource.org/osd).
 """
 thumbnail = "https://opensource.org/files/osi_symbol_0.png"
