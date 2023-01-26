@@ -1,0 +1,12 @@
+name = "try"
+description = "Essayez et regardez ce que ça fait."
+
+[[embeds]]
+title = "Essayez et regardez ce que ça fait"
+description = '''
+Avant de demande de l'aide, testez par vous-même !
+Dans la plupart des cas, le problème à résoudre est juste une étourderie (ne travaillez pas la nuit, les résultats sont plutôt mauvais).
+Ainsi, à la palce de demander directement de l'aide... essayer par vous-même !
+Tentez tout ce que vous voulez, faites mille et un rests s'il le faut, mais au moins essayer !
+'''
+image = "img/try_and_see.webp"
