@@ -1,0 +1,13 @@
+name = "contexte"
+description = "Manque de contexte."
+
+[[embeds]]
+title = "Vous pouvez m'aider ? Est-ce que quelqu'un sait comment faire ?"
+description = '''
+Notre serveur est ouvert à toute question (du moment quelle soit pertinente), nous sommes un serveur communautaire et nous sommes tous passer par ces questions.
+Cependant, nous ne sommes toujours pas devin et nous ne pratiquons pas la voyance ou d'autres techniques de votre chaman de quartier. Ainsi, nous ne pouvons pas deviner ce que vous cherchez, ni où vous voulez le faire.
+Il est donc impossible de vous répondre si vous ne **contextualisez** pas votre problème.
+
+Vous pouvez par exemple préciser ce que vous cherchez à résoudre, sur quel environnement vous êtes, ou tout autres informations que vous pourriez juger quand même assez utile, voir essentielle à nous partager.
+Il ne faut pas se méfier des autres et penser que l'on va vous volez ce que vous faites, le partage est une source très utile à la progression.
+'''
