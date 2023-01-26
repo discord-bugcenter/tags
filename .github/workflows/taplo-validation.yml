@@ -1,7 +1,6 @@
 name: Taplo validation tags
 
-on:
-  push:
+on: push
 
 jobs:
   validate:
@@ -11,8 +10,8 @@ jobs:
     - name: wget
       uses: wei/wget@v1
       with:
-        args: https://github.com/tamasfe/taplo/releases/latest/download/taplo-x86_64-unknown-linux-gnu.tar.gz
+        args: https://github.com/tamasfe/taplo/releases/latest/download/taplo-linux-x86_64.gz
     - name: execute taplo check
       run: |
-        tar -xf taplo-x86_64-unknown-linux-gnu.tar.gz
+        tar xf taplo-linux-x86_64.gz
         ./taplo check src/*/*
