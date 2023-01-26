@@ -1,0 +1,17 @@
+name = "recherche"
+description = "Ouvrir une page Web, c'est vraiment si compliqué ?"
+
+[[embeds]]
+title = "Soyez autonome dans vos recherches !"
+description = '''
+Le Web (et plus généralement le réseau Internet) est la plus grande bibliothèque du monde.
+Je suis sûr et certain que vous trouverez quelques informations sur ce que vous cherchez à faire.
+Prenez donc le réflexe de d'abord faire une petite recherche sur internet avant de poser une question !
+Il existe des tas de sites de type forum permettant un échange de question(s)/réponse(s), par exemple le réseau Stack Exchange (Stack Overflow, Ask Ubuntu, Unix & Linux, etc), Reddit et ses différents sous-reddit, Hacker News ou même tout simplement Wikipédia (et plus généralement les projets Wikimédia).
+Vous n'avez même pas besoin de recherché sur ces sites directement mais vous pouvez tout simplement utiliser votre moteur de recherche préféré* qui fonctionne comme un annuaire de ces sites.
+
+*de manière générale, pour les questions qui concernent le domaine des [STEM](https://fr.wikipedia.org/wiki/STEM_(disciplines)), Google reste le moteur de recherche avec les meilleurs résultats.
+
+
+N. B. : Les assistants basés sur les intelligences artificielles tels que ChatGPT sont aussi aujourd'hui une source pour rechercher, cependant nous n'accepterons pas de résultat venant d'eux.
+'''
