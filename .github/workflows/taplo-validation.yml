@@ -14,6 +14,5 @@ jobs:
     - name: execute taplo check
       run: |
         gzip -d taplo-linux-x86_64.gz
-        ls
         chmod +x ./taplo-linux-x86_64
         ./taplo-linux-x86_64 check src/*/*
