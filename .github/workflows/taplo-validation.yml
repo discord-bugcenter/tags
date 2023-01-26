@@ -15,4 +15,4 @@ jobs:
       run: |
         gzip -d taplo-linux-x86_64.gz
         ls
-        ./taplo check src/*/*
+        ./taplo-linux-x86_64 check src/*/*
